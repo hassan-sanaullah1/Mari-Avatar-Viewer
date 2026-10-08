@@ -1,0 +1,8 @@
+# OS and editor cruft only — everything else in here is meant to be downloaded
+# and run as-is, including vendor/ (three.js) and src/kiosk-tuning.generated.js,
+# because the machine that runs this has no build step and no kiosk checkout.
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
